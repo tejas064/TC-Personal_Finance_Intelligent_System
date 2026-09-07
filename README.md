@@ -1,32 +1,46 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Personal+Finance+Intelligent+System;AI+%26+ML-Powered+Financial+Intelligence;ETL+Pipeline+%7C+Anomaly+Detection+%7C+Forecasting;Python+%7C+Streamlit+%7C+Scikit-learn+%7C+Plotly" alt="Typing SVG" />
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Personal+Finance+Intelligent+System;AI+%26+ML-Powered+Financial+Intelligence;ETL+Pipeline+%7C+Anomaly+Detection+%7C+Forecasting;Python+%7C+Streamlit+%7C+Scikit-learn+%7C+Plotly;Built+by+Tejas+Chavan+%26+Team" alt="Typing SVG" />
 
 <br/>
 <br/>
 
-<!-- Badges -->
+<!-- Project Badges -->
 <a href="#">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </a>
 <a href="#">
-  <img src="https://img.shields.io/badge/Streamlit-1.28+-red.svg?style=flat-square&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 </a>
 <a href="#">
-  <img src="https://img.shields.io/badge/Scikit--learn-1.3+-orange.svg?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 </a>
 <a href="#">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/Plotly-5.0%2B-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
 </a>
 <a href="#">
-  <img src="https://img.shields.io/badge/Status-Active-00D9FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-00D9FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+</a>
+
+<br/>
+
+<a href="#">
+  <img src="https://img.shields.io/badge/Status-Active-00D9FF?style=for-the-badge" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Version-2.0-00D9FF?style=for-the-badge" />
 </a>
 
 <br/>
 <br/>
 
+<!-- Repository Link -->
 <a href="https://github.com/KaizenVH24/VH-Personal_Finance_Intelligent_System">
-  <img src="https://img.shields.io/badge/View%20on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/📂%20View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/🚀%20Live%20Demo-00D9FF?style=for-the-badge&logo=streamlit&logoColor=white" />
 </a>
 
 </div>
@@ -37,84 +51,110 @@
 
 **Personal Finance Intelligent System (PFIS)** is an AI & ML-powered financial intelligence dashboard that transforms raw bank transaction data into structured intelligence, risk insights, predictive forecasts, and executive-ready reports.
 
-> **My Contribution:** Built the **ETL pipeline**, **data validation & cleansing logic**, **anomaly detection engine**, and **interactive Streamlit dashboard** for this project.
+<p align="center">
+  <img src="https://img.shields.io/badge/📈%20Data%20Ingestion-00D9FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/🤖%20Anomaly%20Detection-00D9FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/📊%20Forecasting-00D9FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/📑%20PDF%20Reports-00D9FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/💡%20Automated%20Insights-00D9FF?style=flat-square" />
+</p>
+
+---
+
+## 👤 My Contribution to PFIS
+
+| Component | What I Built | Skills Demonstrated |
+|-----------|--------------|---------------------|
+| 🔄 **ETL Pipeline** | Multi-format ingestion (PDF, CSV, Excel) with intelligent parsing | Data Engineering, Python |
+| ✅ **Data Validation** | Column detection, deduplication, currency stripping, sign handling | Data Quality, Data Cleaning |
+| 🏷️ **Merchant Normalisation** | Cleaned UPI strings, mapped 50+ Indian merchants | Data Transformation, Regex |
+| 🔍 **Anomaly Detection** | Isolation Forest + statistical thresholding for outlier detection | Machine Learning, Scikit-learn |
+| 📊 **Streamlit Dashboard** | Interactive UI with 5 pages: Overview, Transactions, Categories, Forecast, Goals | UI Development, Streamlit |
+| 📈 **Data Aggregator** | Time-based aggregation and feature engineering | Data Analysis, Pandas |
 
 ---
 
 ## 🚀 Key Features
 
-| Feature | Description |
-|---------|-------------|
-| 📄 **Multi-format Ingestion** | PDF, CSV, Excel support with intelligent parsing |
-| 🏷️ **Merchant Normalisation** | Cleans messy UPI strings and maps 50+ Indian merchants |
-| 🔍 **Anomaly Detection** | Isolation Forest ML model for transaction outlier detection |
-| 📊 **Financial Health Score** | Composite 0-100 score with configurable weights |
-| 🔄 **Recurring Detection** | Identifies subscriptions, EMIs, and regular transfers |
-| 📈 **Predictive Analytics** | Expense and savings forecasting with 95% confidence intervals |
-| 💰 **Budget Intelligence** | Per-category budget tracking with alerts |
-| 🎯 **Savings Goal Tracker** | Goal-based savings planner with progress visualization |
-| 💡 **Automated Insights** | Rule-based, data-driven financial insights |
-| 📑 **Executive PDF Report** | Professional report generation with ReportLab |
+| # | Feature | Description |
+|---|---------|-------------|
+| 1 | 📄 **Multi-format Ingestion** | PDF, CSV, Excel support with intelligent parsing |
+| 2 | 🏷️ **Merchant Normalisation** | Cleans messy UPI strings and maps 50+ Indian merchants |
+| 3 | 🔍 **Anomaly Detection** | Isolation Forest ML model for transaction outlier detection |
+| 4 | 📊 **Financial Health Score** | Composite 0-100 score with configurable weights |
+| 5 | 🔄 **Recurring Detection** | Identifies subscriptions, EMIs, and regular transfers |
+| 6 | 📈 **Predictive Analytics** | Expense and savings forecasting with 95% confidence intervals |
+| 7 | 💰 **Budget Intelligence** | Per-category budget tracking with alerts |
+| 8 | 🎯 **Savings Goal Tracker** | Goal-based savings planner with progress visualization |
+| 9 | 💡 **Automated Insights** | Rule-based, data-driven financial insights |
+| 10 | 📑 **Executive PDF Report** | Professional report generation with ReportLab |
 
 ---
 
 ## 📊 Dashboard Pages
 
-| Page | Functionality |
-|------|---------------|
-| **Overview** | Financial summary, health score gauge, key metrics |
-| **Transactions** | Filterable transaction table with anomaly flags |
-| **Categories** | Spending breakdown with budget tracking |
-| **Forecast** | Expense and savings predictions with confidence intervals |
-| **Goals** | Savings goal tracker with projected attainment |
+<table>
+<tr>
+<th width="20%">Page</th>
+<th width="40%">Functionality</th>
+<th width="40%">Key Metrics</th>
+</tr>
+<tr>
+<td>📊 <b>Overview</b></td>
+<td>Financial summary, health score gauge, key metrics</td>
+<td>Balance, Income, Expenses, Savings Rate, Health Score</td>
+</tr>
+<tr>
+<td>📋 <b>Transactions</b></td>
+<td>Filterable transaction table with anomaly flags</td>
+<td>Date, Description, Amount, Category, Anomaly Flag</td>
+</tr>
+<tr>
+<td>📁 <b>Categories</b></td>
+<td>Spending breakdown with budget tracking</td>
+<td>Category-wise Spend, Budget Utilization, Trends</td>
+</tr>
+<tr>
+<td>📈 <b>Forecast</b></td>
+<td>Expense and savings predictions with confidence intervals</td>
+<td>3-Month Forecast, Confidence Intervals</td>
+</tr>
+<tr>
+<td>🎯 <b>Goals</b></td>
+<td>Savings goal tracker with projected attainment</td>
+<td>Goal Progress, Monthly Required Savings, Timeline</td>
+</tr>
+</table>
 
 ---
 
 ## 🏗️ System Architecture
 
-```text
-┌─────────────────────────────────────────────────┐
-│                  UI Layer                        │
-│          Streamlit — app.py                      │
-│   Overview · Transactions · Categories ·         │
-│   Forecast · Goals                               │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│             Business Logic Layer                 │
-│                  utils/                          │
-│                                                  │
-│  data_loader      categorizer    aggregator      │
-│  anomaly_detector health_score   recurring       │
-│  forecasting      savings_pred   insights        │
-│  report_generator                                │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│         Statistical & ML Layer                   │
-│   Isolation Forest · Linear Regression           │
-│   Statistical Thresholding · Rule Heuristics     │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│          Configuration Layer                     │
-│                config.py                         │
-│  All thresholds, weights, budgets, merchant map  │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│            Data Input Layer                      │
-│       PDF · CSV · Excel (.xlsx / .xls)           │
-└─────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    A[Data Input Layer<br/>PDF · CSV · Excel] --> B[Configuration Layer<br/>config.py]
+    B --> C[Statistical & ML Layer<br/>Isolation Forest · Linear Regression]
+    C --> D[Business Logic Layer<br/>utils/]
+    D --> E[UI Layer<br/>Streamlit — app.py]
+    
+    D --> D1[data_loader]
+    D --> D2[categorizer]
+    D --> D3[aggregator]
+    D --> D4[anomaly_detector]
+    D --> D5[health_score]
+    D --> D6[recurring]
+    D --> D7[forecasting]
+    D --> D8[savings_pred]
+    D --> D9[insights]
+    D --> D10[report_generator]
+    
+    E --> E1[Overview]
+    E --> E2[Transactions]
+    E --> E3[Categories]
+    E --> E4[Forecast]
+    E --> E5[Goals]
 🛠️ Tech Stack
-Layer	Technology	Purpose
-UI	Streamlit	Interactive dashboard and navigation
-Visualization	Plotly	Charts, gauges, and time series
-Data	Pandas, NumPy	Manipulation and numerical computation
-ML	Scikit-learn	Isolation Forest, Linear Regression
-PDF Ingestion	pdfplumber	Bank statement parsing
-PDF Export	ReportLab	Executive report generation
-Spreadsheet	openpyxl	Excel read/write
+<table> <tr> <th>Layer</th> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🎨 <b>UI</b></td> <td>Streamlit</td> <td>Interactive dashboard and navigation</td> </tr> <tr> <td>📊 <b>Visualization</b></td> <td>Plotly</td> <td>Charts, gauges, and time series</td> </tr> <tr> <td>📦 <b>Data</b></td> <td>Pandas, NumPy</td> <td>Manipulation and numerical computation</td> </tr> <tr> <td>🧠 <b>ML</b></td> <td>Scikit-learn</td> <td>Isolation Forest, Linear Regression</td> </tr> <tr> <td>📄 <b>PDF Ingestion</b></td> <td>pdfplumber</td> <td>Bank statement parsing</td> </tr> <tr> <td>📑 <b>PDF Export</b></td> <td>ReportLab</td> <td>Executive report generation</td> </tr> <tr> <td>📊 <b>Spreadsheet</b></td> <td>openpyxl</td> <td>Excel read/write</td> </tr> </table>
 📦 Installation
 Prerequisites
 Python 3.8 or higher
@@ -173,17 +213,8 @@ pfis/
     ├── sample_transactions.csv     # 4-month CSV sample
     ├── sample_transactions.xlsx    # Same data as Excel workbook
     └── sample_transactions.pdf     # Same data as bank statement PDF
-📊 Sample Data
-Three sample files are included in assets/ covering November 2025 through February 2026 (771 transactions):
-
-File	Format	Use
-sample_transactions.csv	4 columns: date, description, amount, balance	Direct upload to PFIS
-sample_transactions.xlsx	Transactions + Monthly Summary sheet	Upload or open in Excel
-sample_transactions.pdf	Bank statement layout	Tests PDF parser
-Transaction types covered: Daily interest credits, monies transfers, Zerodha trades, loan EMIs, food delivery, e-commerce, transport, subscriptions, utilities, bill payments, salary credits, peer UPI transfers, and cashback credits.
-
 🧠 Core Capabilities
-1 — Transaction Intelligence Engine
+<details> <summary><b>1 — Transaction Intelligence Engine</b></summary>
 Automatic column detection with descriptive error messages
 
 Currency symbol and comma stripping from amount fields
@@ -196,14 +227,14 @@ Merchant normalisation from messy UPI strings
 
 Transaction type assignment based on amount sign
 
-2 — Anomaly and Risk Detection
+</details><details> <summary><b>2 — Anomaly and Risk Detection</b></summary>
 Statistical thresholding: threshold = mean(expenses) + k × std(expenses)
 
 Isolation Forest anomaly detection on expense amounts
 
 Configurable contamination rate and multiplier
 
-3 — Financial Health Scoring (0-100)
+</details><details> <summary><b>3 — Financial Health Scoring (0-100)</b></summary>
 text
 Final Score = BASE_HEALTH_SCORE (60)
             + savings_contribution (up to +40)
@@ -212,11 +243,11 @@ Final Score = BASE_HEALTH_SCORE (60)
             - concentration_penalty (up to -10)
             → clamped to [0, 100]
 Score	Status
-80–100	Excellent Financial Health
-60–79	Financially Stable
-40–59	Some Financial Risk
-0–39	High Financial Risk
-4 — Recurring Transaction Detection
+80–100	✅ Excellent Financial Health
+60–79	🟢 Financially Stable
+40–59	🟡 Some Financial Risk
+0–39	🔴 High Financial Risk
+</details><details> <summary><b>4 — Recurring Transaction Detection</b></summary>
 Same merchant across multiple months
 
 Amounts match within ±5% tolerance
@@ -225,7 +256,7 @@ Output includes merchant, category, average amount, frequency, active months
 
 Used for total monthly committed spend calculation
 
-5 — Predictive Analytics
+</details><details> <summary><b>5 — Predictive Analytics</b></summary>
 Linear regression on monthly aggregated data
 
 3-month forecast with 95% confidence intervals
@@ -234,46 +265,7 @@ Available for total expenses or individual categories
 
 Savings forecast with green/red bar visualization
 
-6 — Budget Intelligence
-Global monthly budget tracking with over/under delta
-
-Per-category budget tracking with usage percentage
-
-Visual status indicators (🟢/🟡/🔴)
-
-7 — Savings Goal Tracker
-Required monthly savings calculation
-
-Progress bar showing projected attainment
-
-On-track/behind-pace status with exact gap
-
-3-month savings forecast overlay
-
-8 — Automated Insight Engine
-Rule-based, deterministic, data-driven insights
-
-Savings rate classification
-
-Top spending category identification
-
-Spending concentration warnings
-
-Anomaly and large transaction reporting
-
-Investment presence analysis
-
-9 — Executive PDF Report
-ReportLab-generated A4 PDF
-
-Financial summary table
-
-Health score breakdown
-
-Expenses by category
-
-Automated insights as bullet points
-
+</details>
 ⚙️ Configuration
 All system parameters are centralized in config.py:
 
@@ -301,18 +293,12 @@ DEFAULT_CATEGORY_BUDGETS = {
     "Food": 5000,
     "Transport": 3000,
     "Shopping": 4000,
+    "Entertainment": 2000,
+    "Utilities": 3000,
     # ... more categories
 }
 🎯 Engineering Principles
-Principle	Implementation
-Modular Architecture	Each util is standalone, independently importable
-Config-Driven	No magic numbers anywhere in code
-Defensive Ingestion	Every parse step uses coerce, not raise
-Correct Sign Handling	Amount sign determines transaction direction
-Separation of Concerns	app.py contains zero calculations
-Explainable ML	Isolation Forest for detection; scoring uses interpretable ratios
-Deterministic Outputs	Same input always produces same results
-Dark-First Design	Framework-level dark theme enforcement
+<table> <tr> <th>Principle</th> <th>Implementation</th> </tr> <tr> <td>📦 <b>Modular Architecture</b></td> <td>Each util is standalone, independently importable</td> </tr> <tr> <td>⚙️ <b>Config-Driven</b></td> <td>No magic numbers anywhere in code</td> </tr> <tr> <td>🛡️ <b>Defensive Ingestion</b></td> <td>Every parse step uses coerce, not raise</td> </tr> <tr> <td>✅ <b>Correct Sign Handling</b></td> <td>Amount sign determines transaction direction</td> </tr> <tr> <td>🔀 <b>Separation of Concerns</b></td> <td>app.py contains zero calculations</td> </tr> <tr> <td>🧠 <b>Explainable ML</b></td> <td>Isolation Forest for detection; scoring uses interpretable ratios</td> </tr> <tr> <td>🔄 <b>Deterministic Outputs</b></td> <td>Same input always produces same results</td> </tr> <tr> <td>🌙 <b>Dark-First Design</b></td> <td>Framework-level dark theme enforcement</td> </tr> </table>
 ⚠️ Known Limitations
 PDF parser is calibrated for a specific bank statement layout (Indian savings accounts)
 
@@ -325,28 +311,17 @@ PDF report does not embed charts (roadmap item)
 No persistent storage — all analysis is session-scoped
 
 🗺️ Roadmap
-□ Prophet-based seasonal forecasting
-□ Charts embedded in PDF report via Plotly image export
-□ Real-time bank API ingestion
-□ PostgreSQL backend for persistent storage
-□ User authentication and session management
-□ KMeans behavioural clustering for spending archetypes
-□ Multi-user analytics with isolated data namespaces
-□ REST API backend separated from Streamlit UI
-□ Parser extension for additional bank statement formats
+Status	Feature
+⬜	Prophet-based seasonal forecasting
+⬜	Charts embedded in PDF report via Plotly image export
+⬜	Real-time bank API ingestion
+⬜	PostgreSQL backend for persistent storage
+⬜	User authentication and session management
+⬜	KMeans behavioural clustering for spending archetypes
+⬜	Multi-user analytics with isolated data namespaces
+⬜	REST API backend separated from Streamlit UI
+⬜	Parser extension for additional bank statement formats
 👥 Authors
-Author	Role
-Vinay Hulsurkar	Project Lead
-Gayatri Ghorpade	ML & Forecasting
-Tejas Chavan	ETL Pipeline, Data Validation, Dashboard	⬅️ Me
-Jitendra Chaudhary	PDF Report & Testing
-🙏 My Contribution to PFIS
-Component	What I Built
-ETL Pipeline	Multi-format ingestion (PDF, CSV, Excel) with intelligent parsing
-Data Validation	Column detection, deduplication, currency stripping, sign handling
-Merchant Normalisation	Cleaned UPI strings, mapped 50+ Indian merchants
-Anomaly Detection	Isolation Forest + statistical thresholding for outlier detection
-Streamlit Dashboard	Interactive UI with 5 pages: Overview, Transactions, Categories, Forecast, Goals
-Data Aggregator	Time-based aggregation and feature engineering
+<table> <tr> <th>Author</th> <th>Role</th> <th>Contributions</th> </tr> <tr> <td><b>Vinay Hulsurkar</b></td> <td>Project Lead</td> <td>Architecture, ML Models, Project Management</td> </tr> <tr> <td><b>Gayatri Ghorpade</b></td> <td>ML & Forecasting</td> <td>Isolation Forest, Linear Regression, Health Score</td> </tr> <tr> <td><b>Tejas Chavan</b></td> <td>ETL & Dashboard</td> <td>⬅️ ETL Pipeline, Data Validation, Streamlit Dashboard</td> </tr> <tr> <td><b>Jitendra Chaudhary</b></td> <td>PDF & Testing</td> <td>PDF Report Generation, QA, Testing</td> </tr> </table>
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
