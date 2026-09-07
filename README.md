@@ -1,190 +1,272 @@
-<div align="center">
+# Personal Finance Intelligent System (PFIS)
 
-<!-- Animated Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Personal+Finance+Intelligent+System;AI+%26+ML-Powered+Financial+Intelligence;ETL+Pipeline+%7C+Anomaly+Detection+%7C+Forecasting;Python+%7C+Streamlit+%7C+Scikit-learn+%7C+Plotly;Built+by+Tejas+Chavan+%26+Team" alt="Typing SVG" />
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Interactive_Dashboard-red)
+![ML](https://img.shields.io/badge/ML-IsolationForest-green)
+![Architecture](https://img.shields.io/badge/Architecture-Modular-orange)
+![Status](https://img.shields.io/badge/Status-VH_v4.0-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-<br/>
-<br/>
-
-<!-- Project Badges -->
-<a href="#">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Scikit--learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Plotly-5.0%2B-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/License-MIT-00D9FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
-</a>
-
-<br/>
-
-<a href="#">
-  <img src="https://img.shields.io/badge/Status-Active-00D9FF?style=for-the-badge" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Version-2.0-00D9FF?style=for-the-badge" />
-</a>
-
-<br/>
-<br/>
-
-<!-- Repository Link -->
-<a href="https://github.com/KaizenVH24/VH-Personal_Finance_Intelligent_System">
-  <img src="https://img.shields.io/badge/📂%20View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/🚀%20Live%20Demo-00D9FF?style=for-the-badge&logo=streamlit&logoColor=white" />
-</a>
-
-</div>
+> Personal Finance Intelligent System — AI & ML-Powered Financial Intelligence Dashboard  
 
 ---
 
-## 📊 Overview
+## Executive Summary
 
-**Personal Finance Intelligent System (PFIS)** is an AI & ML-powered financial intelligence dashboard that transforms raw bank transaction data into structured intelligence, risk insights, predictive forecasts, and executive-ready reports.
+PFIS is a modular, end-to-end financial analytics platform that transforms raw bank transaction data into structured intelligence, risk insights, predictive forecasts, and executive-ready reports.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/📈%20Data%20Ingestion-00D9FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/🤖%20Anomaly%20Detection-00D9FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/📊%20Forecasting-00D9FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/📑%20PDF%20Reports-00D9FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/💡%20Automated%20Insights-00D9FF?style=flat-square" />
-</p>
+It is not a static dashboard. It is a financial intelligence engine — built around real Indian bank statement formats, real UPI transaction noise, and real spending behavior. Every module is independently testable, every parameter is config-driven, and every output is traceable back to a data decision.
 
----
+Core capabilities:
 
-## 👤 My Contribution to PFIS
-
-| Component | What I Built | Skills Demonstrated |
-|-----------|--------------|---------------------|
-| 🔄 **ETL Pipeline** | Multi-format ingestion (PDF, CSV, Excel) with intelligent parsing | Data Engineering, Python |
-| ✅ **Data Validation** | Column detection, deduplication, currency stripping, sign handling | Data Quality, Data Cleaning |
-| 🏷️ **Merchant Normalisation** | Cleaned UPI strings, mapped 50+ Indian merchants | Data Transformation, Regex |
-| 🔍 **Anomaly Detection** | Isolation Forest + statistical thresholding for outlier detection | Machine Learning, Scikit-learn |
-| 📊 **Streamlit Dashboard** | Interactive UI with 5 pages: Overview, Transactions, Categories, Forecast, Goals | UI Development, Streamlit |
-| 📈 **Data Aggregator** | Time-based aggregation and feature engineering | Data Analysis, Pandas |
+- Multi-format ingestion — PDF, CSV, Excel
+- Intelligent merchant normalisation from messy UPI strings
+- Unsupervised ML anomaly detection via Isolation Forest
+- Composite financial health scoring (0–100)
+- Recurring transaction and subscription detection
+- Predictive expense and savings forecasting with confidence intervals
+- Per-category budget tracking with alerts
+- Goal-based savings tracker
+- Automated insight generation
+- Executive PDF report export
 
 ---
 
-## 🚀 Key Features
+## System Architecture
 
-| # | Feature | Description |
-|---|---------|-------------|
-| 1 | 📄 **Multi-format Ingestion** | PDF, CSV, Excel support with intelligent parsing |
-| 2 | 🏷️ **Merchant Normalisation** | Cleans messy UPI strings and maps 50+ Indian merchants |
-| 3 | 🔍 **Anomaly Detection** | Isolation Forest ML model for transaction outlier detection |
-| 4 | 📊 **Financial Health Score** | Composite 0-100 score with configurable weights |
-| 5 | 🔄 **Recurring Detection** | Identifies subscriptions, EMIs, and regular transfers |
-| 6 | 📈 **Predictive Analytics** | Expense and savings forecasting with 95% confidence intervals |
-| 7 | 💰 **Budget Intelligence** | Per-category budget tracking with alerts |
-| 8 | 🎯 **Savings Goal Tracker** | Goal-based savings planner with progress visualization |
-| 9 | 💡 **Automated Insights** | Rule-based, data-driven financial insights |
-| 10 | 📑 **Executive PDF Report** | Professional report generation with ReportLab |
-
----
-
-## 📊 Dashboard Pages
-
-<table>
-<tr>
-<th width="20%">Page</th>
-<th width="40%">Functionality</th>
-<th width="40%">Key Metrics</th>
-</tr>
-<tr>
-<td>📊 <b>Overview</b></td>
-<td>Financial summary, health score gauge, key metrics</td>
-<td>Balance, Income, Expenses, Savings Rate, Health Score</td>
-</tr>
-<tr>
-<td>📋 <b>Transactions</b></td>
-<td>Filterable transaction table with anomaly flags</td>
-<td>Date, Description, Amount, Category, Anomaly Flag</td>
-</tr>
-<tr>
-<td>📁 <b>Categories</b></td>
-<td>Spending breakdown with budget tracking</td>
-<td>Category-wise Spend, Budget Utilization, Trends</td>
-</tr>
-<tr>
-<td>📈 <b>Forecast</b></td>
-<td>Expense and savings predictions with confidence intervals</td>
-<td>3-Month Forecast, Confidence Intervals</td>
-</tr>
-<tr>
-<td>🎯 <b>Goals</b></td>
-<td>Savings goal tracker with projected attainment</td>
-<td>Goal Progress, Monthly Required Savings, Timeline</td>
-</tr>
-</table>
-
----
-
-## 🏗️ System Architecture
+```
+┌─────────────────────────────────────────────────┐
+│                  UI Layer                        │
+│          Streamlit — app.py                      │
+│   Overview · Transactions · Categories ·         │
+│   Forecast · Goals                               │
+└────────────────────┬────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────┐
+│             Business Logic Layer                 │
+│                  utils/                          │
+│                                                  │
+│  data_loader      categorizer    aggregator      │
+│  anomaly_detector health_score   recurring       │
+│  forecasting      savings_pred   insights        │
+│  report_generator                                │
+└────────────────────┬────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────┐
+│         Statistical & ML Layer                   │
+│   Isolation Forest · Linear Regression           │
+│   Statistical Thresholding · Rule Heuristics     │
+└────────────────────┬────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────┐
+│          Configuration Layer                     │
+│                config.py                         │
+│  All thresholds, weights, budgets, merchant map  │
+└────────────────────┬────────────────────────────┘
+                     │
+┌────────────────────▼────────────────────────────┐
+│            Data Input Layer                      │
+│       PDF · CSV · Excel (.xlsx / .xls)           │
+└─────────────────────────────────────────────────┘
+```
 
 This layered separation ensures the UI layer never contains business logic, the ML layer never touches the config, and every module can be swapped or extended independently.
 
-    A[Data Input Layer<br/>PDF · CSV · Excel] --> B[Configuration Layer<br/>config.py]
-    B --> C[Statistical & ML Layer<br/>Isolation Forest · Linear Regression]
-    C --> D[Business Logic Layer<br/>utils/]
-    D --> E[UI Layer<br/>Streamlit — app.py]
-    
-    D --> D1[data_loader]
-    D --> D2[categorizer]
-    D --> D3[aggregator]
-    D --> D4[anomaly_detector]
-    D --> D5[health_score]
-    D --> D6[recurring]
-    D --> D7[forecasting]
-    D --> D8[savings_pred]
-    D --> D9[insights]
-    D --> D10[report_generator]
-    
-    E --> E1[Overview]
-    E --> E2[Transactions]
-    E --> E3[Categories]
-    E --> E4[Forecast]
-    E --> E5[Goals]
-🛠️ Tech Stack
-<table> <tr> <th>Layer</th> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🎨 <b>UI</b></td> <td>Streamlit</td> <td>Interactive dashboard and navigation</td> </tr> <tr> <td>📊 <b>Visualization</b></td> <td>Plotly</td> <td>Charts, gauges, and time series</td> </tr> <tr> <td>📦 <b>Data</b></td> <td>Pandas, NumPy</td> <td>Manipulation and numerical computation</td> </tr> <tr> <td>🧠 <b>ML</b></td> <td>Scikit-learn</td> <td>Isolation Forest, Linear Regression</td> </tr> <tr> <td>📄 <b>PDF Ingestion</b></td> <td>pdfplumber</td> <td>Bank statement parsing</td> </tr> <tr> <td>📑 <b>PDF Export</b></td> <td>ReportLab</td> <td>Executive report generation</td> </tr> <tr> <td>📊 <b>Spreadsheet</b></td> <td>openpyxl</td> <td>Excel read/write</td> </tr> </table>
-📦 Installation
-Prerequisites
-Python 3.8 or higher
+---
 
-pip package manager
+## File Format Support
 
-Setup
-bash
-# Clone the repository
-git clone https://github.com/KaizenVH24/VH-Personal_Finance_Intelligent_System.git
-cd VH-Personal_Finance_Intelligent_System
+PFIS accepts three input formats natively:
 
-# Create and activate virtual environment
-python -m venv venv
+**PDF bank statements**
+The PDF parser is calibrated for the specific layout used by Indian savings account statements — multi-line UPI descriptions wrapped across rows, signed rupee amounts, date format `04 Feb '26`, and a five-column structure of DATE | DETAILS | REF NO. | AMOUNT | BALANCE. The parser reconstructs split description lines, strips page headers and footers, and handles both straight and typographic apostrophes in year notation.
 
-# Windows
-venv\Scripts\activate
+**CSV**
+Any bank CSV export with `date`, `description`, and `amount` columns. Amount can be signed (negative = debit) or unsigned — the parser infers direction from sign. Rupee symbols, commas, and whitespace in amount strings are cleaned automatically.
 
-# macOS / Linux
-source venv/bin/activate
+**Excel (.xlsx / .xls)**
+Same column requirements as CSV. Multi-sheet workbooks are handled — only the first sheet is read.
 
-# Install dependencies
-pip install -r requirements.txt
+---
 
-# Run the application
-streamlit run app.py
-The application will open in your default browser at http://localhost:8501.
+## Core System Capabilities
 
-📁 Project Structure
-text
+### 1 — Transaction Intelligence Engine
+
+**Ingestion and cleaning**
+- Required column enforcement with descriptive error messages
+- Currency symbol and comma stripping from amount fields
+- `(123)` parenthesis-format negative number support
+- Date parsing with `errors="coerce"` and null row removal
+- Deduplication on date + description + amount
+- Chronological sorting
+
+**Merchant normalisation**
+This was the most significant upgrade from v1. Raw UPI strings look like:
+
+```
+UPI Debit-ZOMATO LIMITED-zomato-order@ptbl-YESB0PTMUPI-155524826119-Zomato Payment
+UPI Debit-NITIN A ZADPE-amzn0026735883@apl-604291961603
+UPI Debit-Mr Om Sanjay Shikare-omshikare7077@okaxis-603568388030-Payment from slice
+```
+
+The categoriser extracts the entity name from the UPI string using a regex that isolates the human-readable segment between `UPI Debit/Credit-` and the UPI handle. It then applies the merchant map from `config.py`. If the entity name does not match, the UPI handle itself is checked — which catches opaque codes like `amzn0026735883@apl` mapping to Amazon. Over 50 Indian merchants are pre-mapped covering food, shopping, travel, entertainment, bills, investments, and loans.
+
+**Transaction type assignment**
+Based solely on the `is_credit` flag derived from amount sign. Positive amount = Income, negative = Expense. This correctly handles all bank statement conventions — no guessing based on category names.
+
+**Time feature engineering**
+- `year`, `month_number`, `month_name`
+- `year_month` period string for grouping
+- `week`, `day_of_week`, `day` for behavioural analysis
+
+---
+
+### 2 — Anomaly and Risk Detection
+
+**Large transaction detection**
+
+```
+threshold = mean(expenses) + k × std(expenses)
+```
+
+`k` is configurable via `BIG_TRANSACTION_MULTIPLIER` in `config.py`. Applied only to expense transactions to prevent salary credits from distorting the mean. Flags stored in `is_large` boolean column.
+
+**Isolation Forest anomaly detection**
+
+Scikit-learn's `IsolationForest` applied to expense amounts only. Requires a minimum of 10 expense transactions to be meaningful. Contamination rate configurable via `ANOMALY_CONTAMINATION`. Flags stored in `is_anomaly` boolean column. These flags feed directly into the health score penalty calculations.
+
+---
+
+### 3 — Financial Health Scoring Engine (0–100)
+
+```
+Final Score = BASE_HEALTH_SCORE
+            + savings_contribution      (up to +40)
+            - large_transaction_penalty (up to -20)
+            - anomaly_penalty           (up to -10)
+            - concentration_penalty     (up to -10)
+            → clamped to [0, 100]
+```
+
+Best achievable score is 100 (BASE=60, full savings contribution=40, zero penalties). The v1 bug where the maximum was 80 is corrected.
+
+**Savings contribution** scales linearly — a savings ratio of 30% earns the full 40 points. Below 0% (spending more than income) the contribution goes negative.
+
+**Large transaction penalty** is proportional to the ratio of large transactions among all expenses.
+
+**Anomaly penalty** is proportional to the anomaly ratio among all expenses.
+
+**Concentration penalty** is proportional to the fraction of total expense going to a single category. A portfolio spread across many categories incurs no penalty; one category dominating at 80%+ incurs the full penalty.
+
+All five constants (`BASE_HEALTH_SCORE`, `MAX_SAVINGS_CONTRIBUTION`, `MAX_LARGE_TXN_PENALTY`, `MAX_ANOMALY_PENALTY`, `MAX_CONCENTRATION_PENALTY`) are tunable in `config.py` with no code changes required.
+
+**Health Score Labels**
+
+| Score | Status |
+|-------|--------|
+| 80–100 | Excellent Financial Health |
+| 60–79  | Financially Stable |
+| 40–59  | Some Financial Risk |
+| 0–39   | High Financial Risk |
+
+---
+
+### 4 — Recurring Transaction Detection
+
+New in v4.0. Detects subscriptions, EMIs, and regular peer transfers automatically.
+
+A transaction group is considered recurring if:
+- The same merchant appears across at least `RECURRING_MIN_OCCURRENCES` months
+- Amounts match within `RECURRING_AMOUNT_TOLERANCE` (default ±5%)
+- Occurrences span multiple distinct calendar months
+
+Output includes: merchant name, category, average amount, frequency, active months, typical day of month, first and last seen dates. The Goals page uses this data to show total monthly committed spend, which reduces your effective savings capacity.
+
+All three parameters are configurable in `config.py`.
+
+---
+
+### 5 — Predictive Analytics
+
+**Expense forecasting**
+
+```
+Expense(t) = β0 + β1 × t
+```
+
+Linear regression on monthly aggregated expense with a continuous time index. Available for total expenses or any individual category. Produces a 3-month forecast (configurable via `FORECAST_PERIODS`) with 95% confidence intervals derived from residual standard deviation:
+
+```
+CI = prediction ± (1.96 × std(residuals))
+```
+
+Requires at least 2 months of historical data.
+
+**Savings forecasting**
+
+Same linear model applied to monthly net savings (`Income − Expense`). Historical savings are visualised as a bar chart with green/red bars for positive/negative months. Forecast values shown with confidence interval bounds surfaced as metric card tooltips.
+
+---
+
+### 6 — Budget Intelligence
+
+**Global budget planner**
+User inputs a monthly budget target. System shows average monthly expense vs budget, with over/under delta as a metric.
+
+**Per-category budget tracking**
+Default category budgets are defined in `config.py` under `DEFAULT_CATEGORY_BUDGETS`. The Categories page compares average monthly spend per category against its budget, showing usage percentage and a 🟢/🟡/🔴 status. Over-budget categories are surfaced as a warning.
+
+---
+
+### 7 — Savings Goal Tracker
+
+User inputs a target savings amount and timeline in months. The system:
+
+- Calculates required monthly savings to hit the goal
+- Compares against current average monthly savings
+- Renders a progress bar showing projected attainment in the target window
+- States whether the goal is on track or behind pace, with exact gap
+- Overlays the 3-month savings forecast to show near-term trajectory
+- Lists recurring committed expenses as context for what's reducing savings capacity
+
+---
+
+### 8 — Automated Insight Engine
+
+Rule-based, deterministic, data-driven. Each insight is generated only when its data condition is met — no filler text.
+
+Insights produced:
+- Savings rate classification with benchmark comparison and absolute improvement suggestion
+- Top spending category with percentage of total expenses
+- Spending concentration warning when one category exceeds 50% of expenses
+- Highest single-merchant spend
+- Anomaly count with page reference
+- Large transaction count and total value
+- Monthly savings volatility warning when std dev exceeds 50% of mean savings
+- Investment presence check — classifies as healthy (≥10% of income) or suggests scaling up
+- Missing investment detection
+
+---
+
+### 9 — Executive PDF Report
+
+Generated with ReportLab on A4 paper. Contents:
+
+- Title and period
+- Financial summary table (income, expense, net savings, health score)
+- Health score breakdown table (savings ratio, large txn ratio, anomaly ratio, concentration)
+- Expenses by category table
+- All automated insights as bullet points
+- PFIS footer
+
+Tables use alternating row fills, dark headers, and consistent Arial typography. No charts are embedded in the current version — this is a known limitation noted in the roadmap.
+
+---
+
+## Project Structure
+
+```
 pfis/
 │
 ├── app.py                          # UI layer — Streamlit pages and layout
@@ -194,7 +276,7 @@ pfis/
 ├── .gitignore
 │
 ├── .streamlit/
-│   └── config.toml                 # Dark theme enforcement
+│   └── config.toml                 # Dark theme enforcement at framework level
 │
 ├── utils/
 │   ├── __init__.py
@@ -210,118 +292,182 @@ pfis/
 │   └── report_generator.py         # ReportLab PDF export
 │
 └── assets/
-    ├── sample_transactions.csv     # 4-month CSV sample
-    ├── sample_transactions.xlsx    # Same data as Excel workbook
-    └── sample_transactions.pdf     # Same data as bank statement PDF
-🧠 Core Capabilities
-<details> <summary><b>1 — Transaction Intelligence Engine</b></summary>
-Automatic column detection with descriptive error messages
+    ├── sample_transactions.csv     # 4-month CSV sample (Nov 2025 – Feb 2026)
+    ├── sample_transactions.xlsx    # Same data as formatted Excel workbook
+    └── sample_transactions.pdf     # Same data in bank statement PDF format
+```
 
-Currency symbol and comma stripping from amount fields
+---
 
-Parenthesis-format negative number support
+## Tech Stack
 
-Deduplication on date + description + amount
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| UI | Streamlit | Interactive dashboard and navigation |
+| Visualisation | Plotly | Charts, gauges, and time series |
+| Data | Pandas, NumPy | Manipulation and numerical computation |
+| ML | Scikit-learn | Isolation Forest, Linear Regression |
+| PDF ingestion | pdfplumber | Bank statement parsing |
+| PDF export | ReportLab | Executive report generation |
+| Spreadsheet | openpyxl | Excel read/write |
 
-Merchant normalisation from messy UPI strings
+---
 
-Transaction type assignment based on amount sign
+## Mathematical Foundations
 
-</details><details> <summary><b>2 — Anomaly and Risk Detection</b></summary>
-Statistical thresholding: threshold = mean(expenses) + k × std(expenses)
+**Large Transaction Threshold**
+```
+x > μ + kσ    where k = BIG_TRANSACTION_MULTIPLIER (default 2.0)
+```
 
-Isolation Forest anomaly detection on expense amounts
+**Isolation Forest**
+Anomaly score based on average path length required to isolate a point across an ensemble of random trees. Shorter path = more anomalous.
 
-Configurable contamination rate and multiplier
+**Health Score**
+```
+S = 60 + min(40, (r_s / 0.30) × 40)
+      - min(20, r_L × 20)
+      - min(10, r_A × 10)
+      - min(10, r_C × 10)
+S = clamp(S, 0, 100)
 
-</details><details> <summary><b>3 — Financial Health Scoring (0-100)</b></summary>
-text
-Final Score = BASE_HEALTH_SCORE (60)
-            + savings_contribution (up to +40)
-            - large_transaction_penalty (up to -20)
-            - anomaly_penalty (up to -10)
-            - concentration_penalty (up to -10)
-            → clamped to [0, 100]
-Score	Status
-80–100	✅ Excellent Financial Health
-60–79	🟢 Financially Stable
-40–59	🟡 Some Financial Risk
-0–39	🔴 High Financial Risk
-</details><details> <summary><b>4 — Recurring Transaction Detection</b></summary>
-Same merchant across multiple months
+r_s = savings ratio
+r_L = large transaction ratio among expenses
+r_A = anomaly ratio among expenses
+r_C = top category concentration ratio
+```
 
-Amounts match within ±5% tolerance
+**Expense Forecast**
+```
+ŷ(t) = β̂0 + β̂1 · t
+CI   = ŷ(t) ± 1.96 · σ_residual
+```
 
-Output includes merchant, category, average amount, frequency, active months
+**Savings Forecast**
+Same form applied to monthly net savings series.
 
-Used for total monthly committed spend calculation
+---
 
-</details><details> <summary><b>5 — Predictive Analytics</b></summary>
-Linear regression on monthly aggregated data
+## Engineering Principles
 
-3-month forecast with 95% confidence intervals
+- **Modular architecture** — each util is a standalone, independently importable module
+- **Config-driven behaviour** — no magic numbers anywhere in code, all constants in `config.py`
+- **Defensive ingestion** — every parse step uses coerce, not raise; meaningful errors surfaced to UI
+- **Correct sign handling** — amount sign determines transaction direction, not category keywords
+- **Separation of computation and UI** — `app.py` contains zero calculations
+- **Explainable ML** — Isolation Forest used only for detection; scoring uses interpretable ratios
+- **Deterministic outputs** — same input always produces the same score, insights, and forecast
+- **Dark-first design** — `.streamlit/config.toml` enforces dark mode at framework level before CSS loads
 
-Available for total expenses or individual categories
+---
 
-Savings forecast with green/red bar visualization
+## Installation and Setup
 
-</details>
-⚙️ Configuration
-All system parameters are centralized in config.py:
+**Clone**
+```bash
+git clone https://github.com/KaizenVH24/VH-Personal_Finance_Intelligent_System.git
+cd VH-Personal_Finance_Intelligent_System
+```
 
-python
-# Health Score Configuration
-BASE_HEALTH_SCORE = 60
-MAX_SAVINGS_CONTRIBUTION = 40
-MAX_LARGE_TXN_PENALTY = 20
-MAX_ANOMALY_PENALTY = 10
-MAX_CONCENTRATION_PENALTY = 10
+**Virtual environment**
+```bash
+python -m venv venv
 
-# Anomaly Detection
-BIG_TRANSACTION_MULTIPLIER = 2.0
-ANOMALY_CONTAMINATION = 0.1
+# Windows
+venv\Scripts\activate
 
-# Recurring Detection
-RECURRING_MIN_OCCURRENCES = 2
-RECURRING_AMOUNT_TOLERANCE = 0.05
+# macOS / Linux
+source venv/bin/activate
+```
 
-# Forecasting
-FORECAST_PERIODS = 3
+**Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-# Budgets
-DEFAULT_CATEGORY_BUDGETS = {
-    "Food": 5000,
-    "Transport": 3000,
-    "Shopping": 4000,
-    "Entertainment": 2000,
-    "Utilities": 3000,
-    # ... more categories
-}
-🎯 Engineering Principles
-<table> <tr> <th>Principle</th> <th>Implementation</th> </tr> <tr> <td>📦 <b>Modular Architecture</b></td> <td>Each util is standalone, independently importable</td> </tr> <tr> <td>⚙️ <b>Config-Driven</b></td> <td>No magic numbers anywhere in code</td> </tr> <tr> <td>🛡️ <b>Defensive Ingestion</b></td> <td>Every parse step uses coerce, not raise</td> </tr> <tr> <td>✅ <b>Correct Sign Handling</b></td> <td>Amount sign determines transaction direction</td> </tr> <tr> <td>🔀 <b>Separation of Concerns</b></td> <td>app.py contains zero calculations</td> </tr> <tr> <td>🧠 <b>Explainable ML</b></td> <td>Isolation Forest for detection; scoring uses interpretable ratios</td> </tr> <tr> <td>🔄 <b>Deterministic Outputs</b></td> <td>Same input always produces same results</td> </tr> <tr> <td>🌙 <b>Dark-First Design</b></td> <td>Framework-level dark theme enforcement</td> </tr> </table>
-⚠️ Known Limitations
-PDF parser is calibrated for a specific bank statement layout (Indian savings accounts)
+**Run**
+```bash
+streamlit run app.py
+```
 
-Forecasting uses linear regression — with limited data, confidence intervals are wide
+The `.streamlit/config.toml` in the project root will automatically apply the dark theme. No manual theme selection required.
 
-Recurring detection requires at least 2 months of data
+---
 
-PDF report does not embed charts (roadmap item)
+## Sample Data
 
-No persistent storage — all analysis is session-scoped
+Three sample files are included in `assets/` covering November 2025 through February 2026 (771 transactions, ~₹2.6L income, ~₹2.5L expenses across 4 months).
 
-🗺️ Roadmap
-Status	Feature
-⬜	Prophet-based seasonal forecasting
-⬜	Charts embedded in PDF report via Plotly image export
-⬜	Real-time bank API ingestion
-⬜	PostgreSQL backend for persistent storage
-⬜	User authentication and session management
-⬜	KMeans behavioural clustering for spending archetypes
-⬜	Multi-user analytics with isolated data namespaces
-⬜	REST API backend separated from Streamlit UI
-⬜	Parser extension for additional bank statement formats
-👥 Authors
-<table> <tr> <th>Author</th> <th>Role</th> <th>Contributions</th> </tr> <tr> <td><b>Vinay Hulsurkar</b></td> <td>Project Lead</td> <td>Architecture, ML Models, Project Management</td> </tr> <tr> <td><b>Gayatri Ghorpade</b></td> <td>ML & Forecasting</td> <td>Isolation Forest, Linear Regression, Health Score</td> </tr> <tr> <td><b>Tejas Chavan</b></td> <td>ETL & Dashboard</td> <td>⬅️ ETL Pipeline, Data Validation, Streamlit Dashboard</td> </tr> <tr> <td><b>Jitendra Chaudhary</b></td> <td>PDF & Testing</td> <td>PDF Report Generation, QA, Testing</td> </tr> </table>
-📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+| File | Format | Use |
+|------|--------|-----|
+| `sample_transactions.csv` | 4 columns: date, description, amount, balance | Direct upload to PFIS |
+| `sample_transactions.xlsx` | Transactions sheet + Monthly Summary sheet | Upload or open in Excel |
+| `sample_transactions.pdf` | Bank statement layout — same column structure as real statements | Tests the PDF parser end-to-end |
+
+Transaction types covered: daily interest credits, monies transfers, Zerodha trades, loan EMIs (Suryoday, MoneyView), food delivery (Zomato, Swiggy), e-commerce (Flipkart, Amazon), transport (Indian Railways, Metro, Uber, Rapido), subscriptions (Netflix, Spotify), utilities (electricity, mobile recharge), bill payments, salary credits, peer UPI transfers, and cashback credits.
+
+---
+
+## Known Limitations
+
+- PDF parser is calibrated for a specific bank statement layout. Other banks with different column ordering or date formats will need adjustments to `_DATE_RE` and `_TXN_END_RE` in `data_loader.py`.
+- Forecasting uses linear regression. With only 1–2 months of data the forecast is a straight extrapolation and the confidence intervals will be wide.
+- Recurring detection requires at least 2 months of data to produce meaningful results.
+- PDF report does not embed charts. Chart-embedded PDF export is on the roadmap.
+- No persistent storage — all analysis is session-scoped. Multi-month comparison requires uploading a combined statement.
+
+---
+
+## Roadmap
+
+- Prophet-based seasonal forecasting to replace linear regression
+- Charts embedded in PDF report via Plotly image export
+- Real-time bank API ingestion
+- PostgreSQL backend for persistent multi-month storage
+- User authentication and session management
+- KMeans behavioural clustering for spending archetype detection
+- Multi-user analytics with isolated data namespaces
+- REST API backend separated from Streamlit UI
+- Parser extension for additional bank statement formats
+
+---
+
+## Interview Talking Points
+
+> Built a modular financial intelligence platform that ingests raw PDF bank statements, normalises messy UPI merchant strings, detects anomalies with Isolation Forest, scores financial health with a configurable composite model, identifies recurring subscriptions and EMIs, forecasts expenses and savings with confidence intervals, and exports an executive PDF report — all in under 15 modules with no hardcoded values.
+
+Demonstrates:
+
+- Real-world unstructured data handling (PDF parsing, UPI string normalisation)
+- Unsupervised ML applied to a practical problem
+- Composite scoring system design with tunable weights
+- Clean separation of concerns across a multi-module Python project
+- Config-driven architecture that supports system tuning without code changes
+- End-to-end product thinking from raw data to downloadable report
+
+---
+
+## Author
+
+>  **Vinay Hulsurkar**  | **Gayatri Ghorpade**  | **Tejas Chavan**  | **Jitendra Chaudhary**  
+
+
+
+
+
+
+
+
+---
+
+### My Profiles: 
+
+- LeetCode — https://leetcode.com/u/vinayhulsurkar24/
+- LinkedIn — https://www.linkedin.com/in/vinayhulsurkar
+- Instagram — https://www.instagram.com/vinayhulsurkar
+
+---
+
+## License
+
+This project is licensed under the MIT License.
