@@ -460,14 +460,6 @@ Demonstrates:
 
 ---
 
-### My Profiles: 
-
-- LeetCode — https://leetcode.com/u/vinayhulsurkar24/
-- LinkedIn — https://www.linkedin.com/in/vinayhulsurkar
-- Instagram — https://www.instagram.com/vinayhulsurkar
-
----
-
 ## License
 
 This project is licensed under the MIT License.
