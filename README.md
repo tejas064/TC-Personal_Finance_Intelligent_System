@@ -131,37 +131,40 @@
 ## 🏗️ System Architecture
 
 ┌─────────────────────────────────────────────────┐
-│                  UI Layer                        │
-│          Streamlit — app.py                      │
-│   Overview · Transactions · Categories ·         │
-│   Forecast · Goals                               │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│             Business Logic Layer                 │
-│                  utils/                          │
-│                                                  │
-│  data_loader      categorizer    aggregator      │
-│  anomaly_detector health_score   recurring       │
-│  forecasting      savings_pred   insights        │
-│  report_generator                                │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│         Statistical & ML Layer                   │
-│   Isolation Forest · Linear Regression           │
-│   Statistical Thresholding · Rule Heuristics     │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│          Configuration Layer                     │
-│                config.py                         │
-│  All thresholds, weights, budgets, merchant map  │
-└────────────────────┬────────────────────────────┘
-                     │
-┌────────────────────▼────────────────────────────┐
-│            Data Input Layer                      │
-│       PDF · CSV · Excel (.xlsx / .xls)           │
+│                  UI LAYER                        │
+│           Streamlit — app.py                     │
+│    Overview · Transactions · Categories ·        │
+│    Forecast · Goals                              │
+└─────────────────────┬───────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────┐
+│              BUSINESS LOGIC LAYER                │
+│                   utils/                         │
+│                                                   │
+│   data_loader  ·  categorizer  ·  aggregator      │
+│   anomaly_detector  ·  health_score  ·  recurring │
+│   forecasting  ·  savings_pred  ·  insights       │
+│   report_generator                                │
+└─────────────────────┬───────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────┐
+│           STATISTICAL & ML LAYER                 │
+│                                                   │
+│   Isolation Forest  ·  Linear Regression          │
+│   Statistical Thresholding  ·  Rule Heuristics    │
+└─────────────────────┬───────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────┐
+│             CONFIGURATION LAYER                  │
+│                   config.py                      │
+│                                                   │
+│   All thresholds, weights, budgets, merchant map  │
+└─────────────────────┬───────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────┐
+│              DATA INPUT LAYER                    │
+│                                                   │
+│        PDF  ·  CSV  ·  Excel (.xlsx / .xls)      │
 └─────────────────────────────────────────────────┘
 This layered separation ensures the UI layer never contains business logic, the ML layer never touches the config, and every module can be swapped or extended independently.
 
