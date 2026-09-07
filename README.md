@@ -1,47 +1,78 @@
-Personal Finance Intelligent System (PFIS)
-https://img.shields.io/badge/Python-3.8+-blue.svg
-https://img.shields.io/badge/Streamlit-1.28+-red.svg
-https://img.shields.io/badge/License-MIT-green.svg
-https://img.shields.io/badge/Scikit--learn-1.3+-orange.svg
+<div align="center">
 
-An AI & ML-Powered Financial Intelligence Dashboard that transforms raw bank transaction data into structured intelligence, risk insights, predictive forecasts, and executive-ready reports.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Personal+Finance+Intelligent+System;AI+%26+ML-Powered+Financial+Intelligence;ETL+Pipeline+%7C+Anomaly+Detection+%7C+Forecasting;Python+%7C+Streamlit+%7C+Scikit-learn+%7C+Plotly" alt="Typing SVG" />
 
-🚀 Key Features
-Multi-format Ingestion — PDF, CSV, Excel support with intelligent parsing
+<br/>
+<br/>
 
-Intelligent Merchant Normalisation — Cleans messy UPI strings and maps 50+ Indian merchants
+<!-- Badges -->
+<a href="#">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat-square&logo=python&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Streamlit-1.28+-red.svg?style=flat-square&logo=streamlit&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Scikit--learn-1.3+-orange.svg?style=flat-square&logo=scikit-learn&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Status-Active-00D9FF?style=flat-square" />
+</a>
 
-Unsupervised ML Anomaly Detection — Isolation Forest for transaction outlier detection
+<br/>
+<br/>
 
-Financial Health Scoring — Composite 0-100 score with configurable weights
+<a href="https://github.com/KaizenVH24/VH-Personal_Finance_Intelligent_System">
+  <img src="https://img.shields.io/badge/View%20on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-Recurring Transaction Detection — Identifies subscriptions, EMIs, and regular transfers
+</div>
 
-Predictive Analytics — Expense and savings forecasting with 95% confidence intervals
+---
 
-Budget Intelligence — Per-category budget tracking with alerts
+## 📊 Overview
 
-Savings Goal Tracker — Goal-based savings planner with progress visualization
+**Personal Finance Intelligent System (PFIS)** is an AI & ML-powered financial intelligence dashboard that transforms raw bank transaction data into structured intelligence, risk insights, predictive forecasts, and executive-ready reports.
 
-Automated Insights — Rule-based, data-driven financial insights
+> **My Contribution:** Built the **ETL pipeline**, **data validation & cleansing logic**, **anomaly detection engine**, and **interactive Streamlit dashboard** for this project.
 
-Executive PDF Report — Professional report generation with ReportLab
+---
 
-📊 Dashboard Preview
-The application provides five main dashboard pages:
+## 🚀 Key Features
 
-Overview — Financial summary, health score gauge, key metrics
+| Feature | Description |
+|---------|-------------|
+| 📄 **Multi-format Ingestion** | PDF, CSV, Excel support with intelligent parsing |
+| 🏷️ **Merchant Normalisation** | Cleans messy UPI strings and maps 50+ Indian merchants |
+| 🔍 **Anomaly Detection** | Isolation Forest ML model for transaction outlier detection |
+| 📊 **Financial Health Score** | Composite 0-100 score with configurable weights |
+| 🔄 **Recurring Detection** | Identifies subscriptions, EMIs, and regular transfers |
+| 📈 **Predictive Analytics** | Expense and savings forecasting with 95% confidence intervals |
+| 💰 **Budget Intelligence** | Per-category budget tracking with alerts |
+| 🎯 **Savings Goal Tracker** | Goal-based savings planner with progress visualization |
+| 💡 **Automated Insights** | Rule-based, data-driven financial insights |
+| 📑 **Executive PDF Report** | Professional report generation with ReportLab |
 
-Transactions — Filterable transaction table with anomaly flags
+---
 
-Categories — Spending breakdown with budget tracking
+## 📊 Dashboard Pages
 
-Forecast — Expense and savings predictions with confidence intervals
+| Page | Functionality |
+|------|---------------|
+| **Overview** | Financial summary, health score gauge, key metrics |
+| **Transactions** | Filterable transaction table with anomaly flags |
+| **Categories** | Spending breakdown with budget tracking |
+| **Forecast** | Expense and savings predictions with confidence intervals |
+| **Goals** | Savings goal tracker with projected attainment |
 
-Goals — Savings goal tracker with projected attainment
+---
 
-🏗️ System Architecture
-text
+## 🏗️ System Architecture
+
+```text
 ┌─────────────────────────────────────────────────┐
 │                  UI Layer                        │
 │          Streamlit — app.py                      │
@@ -91,14 +122,12 @@ Python 3.8 or higher
 pip package manager
 
 Setup
-Clone the repository
-
 bash
+# Clone the repository
 git clone https://github.com/KaizenVH24/VH-Personal_Finance_Intelligent_System.git
 cd VH-Personal_Finance_Intelligent_System
-Create and activate virtual environment
 
-bash
+# Create and activate virtual environment
 python -m venv venv
 
 # Windows
@@ -106,13 +135,11 @@ venv\Scripts\activate
 
 # macOS / Linux
 source venv/bin/activate
-Install dependencies
 
-bash
+# Install dependencies
 pip install -r requirements.txt
-Run the application
 
-bash
+# Run the application
 streamlit run app.py
 The application will open in your default browser at http://localhost:8501.
 
@@ -153,7 +180,7 @@ File	Format	Use
 sample_transactions.csv	4 columns: date, description, amount, balance	Direct upload to PFIS
 sample_transactions.xlsx	Transactions + Monthly Summary sheet	Upload or open in Excel
 sample_transactions.pdf	Bank statement layout	Tests PDF parser
-Transaction types covered: daily interest credits, monies transfers, Zerodha trades, loan EMIs, food delivery, e-commerce, transport, subscriptions, utilities, bill payments, salary credits, peer UPI transfers, and cashback credits.
+Transaction types covered: Daily interest credits, monies transfers, Zerodha trades, loan EMIs, food delivery, e-commerce, transport, subscriptions, utilities, bill payments, salary credits, peer UPI transfers, and cashback credits.
 
 🧠 Core Capabilities
 1 — Transaction Intelligence Engine
@@ -277,22 +304,15 @@ DEFAULT_CATEGORY_BUDGETS = {
     # ... more categories
 }
 🎯 Engineering Principles
-Modular architecture — Each util is a standalone, independently importable module
-
-Config-driven behaviour — No magic numbers anywhere in code
-
-Defensive ingestion — Every parse step uses coerce, not raise
-
-Correct sign handling — Amount sign determines transaction direction
-
-Separation of computation and UI — app.py contains zero calculations
-
-Explainable ML — Isolation Forest used only for detection; scoring uses interpretable ratios
-
-Deterministic outputs — Same input always produces the same results
-
-Dark-first design — Framework-level dark theme enforcement
-
+Principle	Implementation
+Modular Architecture	Each util is standalone, independently importable
+Config-Driven	No magic numbers anywhere in code
+Defensive Ingestion	Every parse step uses coerce, not raise
+Correct Sign Handling	Amount sign determines transaction direction
+Separation of Concerns	app.py contains zero calculations
+Explainable ML	Isolation Forest for detection; scoring uses interpretable ratios
+Deterministic Outputs	Same input always produces same results
+Dark-First Design	Framework-level dark theme enforcement
 ⚠️ Known Limitations
 PDF parser is calibrated for a specific bank statement layout (Indian savings accounts)
 
@@ -315,16 +335,18 @@ No persistent storage — all analysis is session-scoped
 □ REST API backend separated from Streamlit UI
 □ Parser extension for additional bank statement formats
 👥 Authors
-Vinay Hulsurkar | Gayatri Ghorpade | Tejas Chavan | Jitendra Chaudhary
-
+Author	Role
+Vinay Hulsurkar	Project Lead
+Gayatri Ghorpade	ML & Forecasting
+Tejas Chavan	ETL Pipeline, Data Validation, Dashboard	⬅️ Me
+Jitendra Chaudhary	PDF Report & Testing
+🙏 My Contribution to PFIS
+Component	What I Built
+ETL Pipeline	Multi-format ingestion (PDF, CSV, Excel) with intelligent parsing
+Data Validation	Column detection, deduplication, currency stripping, sign handling
+Merchant Normalisation	Cleaned UPI strings, mapped 50+ Indian merchants
+Anomaly Detection	Isolation Forest + statistical thresholding for outlier detection
+Streamlit Dashboard	Interactive UI with 5 pages: Overview, Transactions, Categories, Forecast, Goals
+Data Aggregator	Time-based aggregation and feature engineering
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
-
-
-Clean separation of concerns across a multi-module Python project
-
-Config-driven architecture that supports system tuning without code changes
-
-End-to-end product thinking from raw data to downloadable report
-
-⭐ Star this repository if you find it useful!
